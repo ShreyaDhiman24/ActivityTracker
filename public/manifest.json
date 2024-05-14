@@ -7,8 +7,10 @@
     "default_title":"Activity Tracker",
     "default_popup": "index.html",
     "default_icon": {
-      "16": "logo192.png",
-      "128" : "logo512.png"
+      "16": "logoMain.png",
+      "32": "logoMain.png",
+      "48":"logoMain.png",
+      "128":"logoMain.png"
     }
   }
 }

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: whitesmoke;
+  background: #eaf5fb;
   box-shadow:0 0 10px black;
   position: relative;
   border-radius: 10px;
@@ -86,7 +86,7 @@
 button {
   width: 100%;
   padding: 10px;
-  background: #007bff;
+  background: #4cca8b;
   color: white;
   border: none;
   border-radius: 5px;

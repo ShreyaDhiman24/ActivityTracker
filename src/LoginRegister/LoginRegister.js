@@ -18,7 +18,7 @@ const LoginRegister = () => {
     <div className={`wrapper ${action}`}>
       <div className="form-box login">
         <form action="">
-          <h1>Login</h1>
+          <img src="logoMain.png" width={150}/>
           <div className="input-box">
             <input type="text" placeholder="Username" required />
             <FaUser />
@@ -38,7 +38,7 @@ const LoginRegister = () => {
           <div className="register-link">
             <p>
               Don't have an account?{" "}
-              <a href="/" onClick={registerLink}>
+              <a href="#" onClick={registerLink}>
                 Register
               </a>
             </p>
@@ -48,7 +48,7 @@ const LoginRegister = () => {
 
       <div className="form-box register">
         <form action="">
-          <h1>Registration</h1>
+        <img src="logoMain.png" width={130}/>
           <div className="input-box">
             <input type="text" placeholder="Username" required />
             <FaUser />

@@ -1,0 +1,31 @@
+.navbar {
+  border-bottom: 2px solid rgb(64, 62, 62);
+  box-shadow: 0px 1px 10px black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: whitesmoke;
+  backdrop-filter: blur(30px);
+  padding: 5px 10px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center; /* Center items vertically */
+}
+
+.navbar img {
+  height: 40px; /* Adjust height of logo */
+  margin-right: 10px; /* Add spacing between logo and text */
+}
+
+.navbar h2 {
+  margin: 0; 
+}
+
+.navbar div {
+  margin-left: auto; /* Push the 'Dashboard' div to the right */
+  cursor: pointer; /* Add pointer cursor on hover */
+  padding: 1px 16px; /* Add padding to the 'Dashboard' div */
+  border-radius: 4px; /* Add rounded corners */
+}
+
